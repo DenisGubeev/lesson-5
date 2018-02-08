@@ -1,5 +1,5 @@
 <?php
-$data = file_get_contents('C:\Games\OSPanel\domains\task.com\lesson_5.json');
+$data = file_get_contents('data.json');
 $persons = json_decode($data, true);
 
 ?>
